@@ -1,0 +1,224 @@
+*{ margin: 0;
+    padding: 0;
+   box-sizing: border-box;    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+#left{
+    width: 80%;
+    height: 100%;
+    background-color: black;
+}
+#ltop{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background-image: url(http://cdn.shopify.com/s/files/1/0059/8835/2052/products/Golden_Pothos_FGT_600x600_5b8205ba-e962-4b1d-be2a-426f3068f575_grande.jpg?v=1626903728);
+
+    background-size:cover;
+ }
+ #ltop h4{
+    margin-left: 20px;
+    width: 20px;
+    font-size:20px;
+ }
+
+ #ltop i{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+    background-color: white;
+    
+
+ }
+
+#lbottom{
+   width: 100%;
+   height:30% ;
+   background-color: rgba(0, 0, 0, 0.71);
+   padding: 50px 200px;
+   color: white;
+   
+}
+#lbcontent{
+    display:flex ;
+     width: 100%;
+    height: 30px;
+    justify-content:space-between ;
+    
+}
+#contentleft{
+    width: 45%;
+    height: 100%;
+    
+    
+}
+ 
+#contentleft p{
+    width: 70%;
+    font-size: 12px;
+    margin-top: 9px;
+    
+} 
+
+#contentright{
+    
+    width: 45%;
+    height: 100%;
+
+}
+.row{
+    
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-top:20px ;
+    
+}
+.rowelem{
+    display: flex;
+    
+    
+}
+.relemtext{
+    margin-left: 10px;
+}
+
+.relemtext h6{
+    opacity: .5;
+    font-weight: 500;
+}
+.rowelem i{
+    color: rgb(114, 183, 114);
+}
+
+#right{
+    width: 20%;
+    height: 100%;
+}
+
+#rtop{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    background-color:white;
+    padding: 70px;
+}
+#rtop a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+#rtop #selected{
+    margin-left: 20px;
+    position: relative;
+}
+#rtop #selected::before{
+
+    content: "";
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    left: -20px;
+    top:7px;
+}
+
+#icons{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#icons i{
+    font-size: 20px;
+}
+
+
+#btmflower{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 120px;
+    background-image: url(https://www.bybrittanygoldwyn.com/wp-content/uploads/2019/05/How-to-care-for-pothos-11.jpg);
+    background-size: cover;
+}
+#btmflower i{
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      
+
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.418);
+
+
+
+}
+
+#rbottom{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-image: url(https://c8.alamy.com/zooms/9/71d68c35e77a4ae7b22ba8f790fba1b2/d2edy2.jpg);
+    background-size: cover;
+    
+}
+
+#capsul{
+    position: absolute;
+    width: 90%;
+    
+    padding:10px 20px ;
+    background-color: white;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 10px;
+
+}
+
+#capsul h2{
+    font-size: 19px;
+    line-height: 1;
+    margin-top: 7px;
+
+}
+#capsul p{
+    font-size: 10px;
+    font-weight: 70%;
+    opacity: .5;
+    font-weight: 500;
+}
+
+
+
